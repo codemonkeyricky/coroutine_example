@@ -1,0 +1,9 @@
+cc_binary(
+    name = "coro", 
+    srcs = [
+        "main.cc",
+    ], 
+    copts = [
+        "-fcoroutines",
+    ],
+)
