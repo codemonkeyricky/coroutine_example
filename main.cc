@@ -108,11 +108,11 @@ auto timeout(int ms) noexcept {
 task<> future_async() {
 
     /* suspend */
-    co_await timeout(1);
+    co_await timeout(10);
 
-    co_await timeout(1);
+    co_await timeout(10);
 
-    co_await timeout(1);
+    co_await timeout(10);
 }
 
 // #define COROUTINE
