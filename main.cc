@@ -115,7 +115,7 @@ task<> future_async() {
     co_await timeout(10);
 }
 
-// #define COROUTINE
+#define COROUTINE
 
 int main() {
 
